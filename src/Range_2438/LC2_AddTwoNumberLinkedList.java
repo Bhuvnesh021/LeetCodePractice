@@ -1,8 +1,6 @@
 package Range_2438;
 
-import java.util.List;
-
-public class AddTwoNumberLinkedList {
+public class LC2_AddTwoNumberLinkedList {
     public static void main(String[] args) {
         ListNode firstRoot = new ListNode(2);
         firstRoot.next = new ListNode(4);
@@ -12,8 +10,8 @@ public class AddTwoNumberLinkedList {
         secondRoot.next = new ListNode(6);
         secondRoot.next.next = new ListNode(4);
 
-        AddTwoNumberLinkedList addTwoNumberLinkedList = new AddTwoNumberLinkedList();
-        addTwoNumberLinkedList.addTwoNumbers(firstRoot, secondRoot);
+        LC2_AddTwoNumberLinkedList LC2AddTwoNumberLinkedList = new LC2_AddTwoNumberLinkedList();
+        LC2AddTwoNumberLinkedList.addTwoNumbers(firstRoot, secondRoot);
     }
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode tempFirst = l1;

@@ -1,10 +1,10 @@
 package Range_2438;
 
-public class LongestPalindromicSubstring {
+public class LC5_LongestPalindromicSubstring {
     public static void main(String[] args) {
-        LongestPalindromicSubstring longestPalindromicSubstring = new LongestPalindromicSubstring();
+        LC5_LongestPalindromicSubstring LC5LongestPalindromicSubstring = new LC5_LongestPalindromicSubstring();
 //        System.out.println("mnsabcmcba".substring(2,1));
-        System.out.println(longestPalindromicSubstring.longestPalindrome("mnsabcmcbamkzxcvbnmmnbvcxzas"));
+        System.out.println(LC5LongestPalindromicSubstring.longestPalindrome("mnsabcmcbamkzxcvbnmmnbvcxzas"));
     }
     public String longestPalindrome(String s) {
         if(s == null) return null;

@@ -1,11 +1,9 @@
 package Range_2438;
 
-import java.util.Arrays;
-
-public class ZigzagConversation {
+public class LC6_ZigzagConversation {
     public static void main(String[] args) {
-        ZigzagConversation zigzagConversation = new ZigzagConversation();
-        System.out.println(zigzagConversation.convert("PAYPALISHIRING", 3));
+        LC6_ZigzagConversation LC6ZigzagConversation = new LC6_ZigzagConversation();
+        System.out.println(LC6ZigzagConversation.convert("PAYPALISHIRING", 3));
     }
     public String convert(String s, int numRows) {
         StringBuilder[] stringBuilders = new StringBuilder[numRows];

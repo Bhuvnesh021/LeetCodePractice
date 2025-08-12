@@ -3,11 +3,11 @@ package Range_2438;
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestSubStringWithoutRepeatingChars {
+public class LC3_LongestSubStringWithoutRepeatingChars {
     public static void main(String[] args) {
 
-        LongestSubStringWithoutRepeatingChars longestSubStringWithoutRepeatingChars = new LongestSubStringWithoutRepeatingChars();
-        int abcabcabc = longestSubStringWithoutRepeatingChars.lengthOfLongestSubstring("adcabcade");
+        LC3_LongestSubStringWithoutRepeatingChars LC3LongestSubStringWithoutRepeatingChars = new LC3_LongestSubStringWithoutRepeatingChars();
+        int abcabcabc = LC3LongestSubStringWithoutRepeatingChars.lengthOfLongestSubstring("adcabcade");
         System.out.println(abcabcabc);
     }
     public int lengthOfLongestSubstring(String s) {

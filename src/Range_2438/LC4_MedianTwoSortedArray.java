@@ -1,13 +1,11 @@
 package Range_2438;
 
-import java.util.Arrays;
-
-public class MedianTwoSortedArray {
+public class LC4_MedianTwoSortedArray {
     public static void main(String[] args) {
         int[] num1 = {1,2};
         int[] num2 = {3,4};
-        MedianTwoSortedArray medianTwoSortedArray = new MedianTwoSortedArray();
-        double medianSortedArrays = medianTwoSortedArray.findMedianSortedArrays(num1, num2);
+        LC4_MedianTwoSortedArray LC4MedianTwoSortedArray = new LC4_MedianTwoSortedArray();
+        double medianSortedArrays = LC4MedianTwoSortedArray.findMedianSortedArrays(num1, num2);
         System.out.println(medianSortedArrays);
     }
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
